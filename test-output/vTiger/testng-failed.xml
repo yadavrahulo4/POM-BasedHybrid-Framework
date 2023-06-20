@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [vTiger]" guice-stage="DEVELOPMENT">
+  <parameter name="repot_filename" value="rahul_16-march"/>
+  <parameter name="testcase_ID1" value="tc001_Login"/>
+  <test thread-count="5" name="LoginScript(failed)">
+    <classes>
+      <class name="org.learn.vtiger.testScripts.VerifyLoginTestCases">
+        <methods>
+          <include name="createTest"/>
+          <include name="GenerateReport"/>
+          <include name="toTest_verifyLoginWithInValidCredentials"/>
+          <include name="toTest_verifyLoginWithValidCredentials"/>
+          <include name="flushed"/>
+        </methods>
+      </class> <!-- org.learn.vtiger.testScripts.VerifyLoginTestCases -->
+    </classes>
+  </test> <!-- LoginScript(failed) -->
+</suite> <!-- Failed suite [vTiger] -->

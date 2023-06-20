@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="org.learn.vtiger.testScripts.TS01_Login">
+        <methods>
+          <include name="flushReort"/>
+          <include name="tc001_verifyLoginWithValidCredentials"/>
+          <include name="launch_hitUrl_SetUp"/>
+          <include name="tc003LoginWithMultipleData"/>
+          <include name="tc002_verifyLoginWithInValidCredentials"/>
+          <include name="reportSetUp"/>
+          <include name="Logout"/>
+        </methods>
+      </class> <!-- org.learn.vtiger.testScripts.TS01_Login -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
